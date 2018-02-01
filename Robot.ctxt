@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=posX\ posY\ angulo
+comment0.target=Robot(int,\ int,\ int)
+comment0.text=\n\ Constructor\ al\ que\ se\ le\ pasa\ la\ posicion\ inicial\ en\ celdas,\n\ y\ el\ angulo\ inicial\ en\ grados\ (multiplo\ de\ 90)\ \n
+comment1.params=
+comment1.target=boolean\ avanza()
+comment1.text=\n\ Avanza\ el\ robot\ una\ celda\ si\ se\ puede;\ \n\ retorna\ true\ si\ avanzo,\ o\ false\ si\ habia\ un\ obstaculo\ delante\n
+comment2.params=
+comment2.target=void\ gira90()
+comment2.text=\n\ Gira\ el\ robot\ 90\ grados\n
+comment3.params=direccion
+comment3.target=boolean\ hayObstaculo(int)
+comment3.text=\n\ Indica\ si\ el\ robot\ tiene\ un\ obstaculo\ en\ la\ direccion\ indicada\n\ La\ direccion\ se\ expresa\ mediante\ las\ constantes\ estaticas\ \n\ DELANTE,\ DETRAS,\ IZQDA,\ DCHA,\ y\ es\ relativa\ al\ angulo\ actual\ del\ robot\n
+comment4.params=
+comment4.target=void\ pinta()
+comment4.text=\n\ Pinta\ el\ robot\ y\ el\ recinto\n
+comment5.params=milisegundos
+comment5.target=void\ espera(int)
+comment6.params=
+comment6.target=boolean\ estaDentroLaberinto()
+comment6.text=\n\ Indica\ si\ el\ robot\ esta\ dentro\ del\ laberinto\n
+numComments=7

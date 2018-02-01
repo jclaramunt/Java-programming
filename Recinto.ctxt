@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Recinto()
+comment0.text=\n\ Constructor\ que\ da\ un\ valor\ concreto\ al\ recinto\n
+comment1.params=x
+comment1.target=int\ coordX(int)
+comment2.params=y
+comment2.target=int\ coordY(int)
+comment3.params=
+comment3.target=void\ pinta()
+comment3.text=\n\ Pintar\ el\ dibujo\n
+comment4.params=posX\ posY\ angulo
+comment4.target=void\ cambiaRobot(int,\ int,\ int)
+comment4.text=\n\ Cambia\ la\ posicion\ y\ angulo\ del\ robot.\n\ El\ angulo\ debe\ ser\ multiplo\ de\ 90\n
+comment5.params=direccion
+comment5.target=boolean\ hayObstaculo(int)
+comment5.text=\n\ Indica\ si\ el\ robot\ tiene\ un\ obstaculo\ en\ la\ direccion\ indicada\n
+comment6.params=x\ y
+comment6.target=boolean\ posicionValida(int,\ int)
+comment6.text=\n\ Indica\ si\ estas\ coordenadas\ son\ validas\ para\ poner\ el\ robot\n
+numComments=7
